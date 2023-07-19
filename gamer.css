@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:ital,wght@0,700;0,800;1,400;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  max-width: 1920px;
+}
+
+/* Nav section */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-title .gamer {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0b0223;
+}
+.gamer .g {
+  color: #ff42a5;
+}
+nav .nav-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-links ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-links li {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3c354f;
+}
+.follow-us-icon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  color: #0b0223;
+  width: 262px;
+  height: 56px;
+  padding: 17px 24px;
+}
