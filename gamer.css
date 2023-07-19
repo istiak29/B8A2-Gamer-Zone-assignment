@@ -40,7 +40,7 @@ a {
   gap: 40px;
 }
 .nav-links li {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #3c354f;
 }
@@ -56,17 +56,71 @@ a {
   height: 56px;
   padding: 17px 24px;
 }
-
-
-
-
+/* ----------------------Banner section -------------------------*/
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.banner-content {
+  padding: 200px 280px 150px 200px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  background-image: url(images/Group\ 14.png);
+}
+.banner-content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0b0223;
+}
+.banner-content h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  color: #f948b2, #8758f1;
+}
+.banner-content ul {
+  list-style: none;
+}
+.banner-content ul li {
+  margin-top: 1rem;
+}
+.banner-content button {
+  margin-top: 1rem;
+}
+.banner-content .banner-btn {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  padding-left: 30px;
+}
+.banner-btn .sign-in {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #ffffff;
+  padding: 21px 40px;
+}
+.banner-btn .go-rogue {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  color: #ffffff;
+}
+.banner-img{
+    width: 100%;
+    text-align: center;
+}
 
 /* ----------------Responsive Section --------------------- */
 
 /* small device */
 @media screen and (max-width: 576px) {
-    nav, .nav-links ul{
-        flex-direction: column;
-    }
-    
+  nav,
+  .nav-links ul {
+    flex-direction: column;
+  }
 }
