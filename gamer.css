@@ -7,7 +7,7 @@
   max-width: 1920px;
 }
 
-/* Nav section */
+/* ------------------------Nav section---------------------------- */
 nav {
   display: flex;
   justify-content: space-around;
@@ -55,4 +55,18 @@ a {
   width: 262px;
   height: 56px;
   padding: 17px 24px;
+}
+
+
+
+
+
+/* ----------------Responsive Section --------------------- */
+
+/* small device */
+@media screen and (max-width: 576px) {
+    nav, .nav-links ul{
+        flex-direction: column;
+    }
+    
 }
