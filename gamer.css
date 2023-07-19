@@ -124,7 +124,7 @@ a {
 /* -----------------Online Games section-------------------------*/
 
 .games-content {
-    border: 1px solid;
+
   text-align: center;
   margin: 0 400px 20px 400px;
 }
@@ -145,7 +145,10 @@ a {
   gap: 1.3rem;
   margin: 50px 240px 0 240px;
 }
+.games-preview:hover .card{
+    cursor: pointer;
 
+}
 /*----------------------------- Instant play-------------------------- */
 
 .instant-play {
@@ -176,6 +179,11 @@ a {
 }
 
 /* ----------------------Game Options---------------------------- */
+.game-opt .opt:hover {
+    cursor: pointer;
+    border: 1px solid #ff42a5;
+    color: #FF42A5;
+}
 .game-opt {
   background: linear-gradient(
     90deg,
@@ -189,6 +197,7 @@ a {
   row-gap: 10px;
   margin-left: 100px;
 }
+
 #r1,
 #r2,
 #r3,
