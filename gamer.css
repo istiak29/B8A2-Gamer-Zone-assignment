@@ -6,6 +6,12 @@
   font-family: "Work Sans", sans-serif;
   max-width: 1920px;
 }
+/* ---------shared---------- */
+.gray-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #534c64;
+}
 
 /* ------------------------Nav section---------------------------- */
 nav {
@@ -110,10 +116,34 @@ a {
   background: #4ec5f7;
   color: #ffffff;
 }
-.banner-img{
-    width: 100%;
-    text-align: center;
+.banner-img {
+  width: 100%;
+  text-align: center;
 }
+
+/* -----------------Online Games section-------------------------*/
+
+.games-content {
+  text-align: center;
+}
+.games-content h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b0223;
+}
+.games-content h3 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.games-preview .card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.3rem;
+  margin: 50px 240px 0 240px;
+}
+
 
 /* ----------------Responsive Section --------------------- */
 
@@ -122,5 +152,16 @@ a {
   nav,
   .nav-links ul {
     flex-direction: column;
+    flex: 1;
+    width: auto;
   }
+}
+/* header{                                                      #problem
+    max-width: auto; */
+
+.banner {
+  grid-template-columns: repeat(1, 1fr);
+}
+.banner-content {
+  padding: 20px 60px 30px 150px;
 }
